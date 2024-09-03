@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>NugetDemoPackageWithUniquePackageId</id>
+    <version>1.0.0</version>
+    <authors>AuthorName</authors>
+    <description>Simple nuget package demo</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2024 CompanyName</copyright>
+    <tags>C# library</tags>
+  </metadata>
+   <files>
+    <file src=".\NugetDemo\bin\Release\*" target="lib\net48\" />
+  </files>
+</package>
